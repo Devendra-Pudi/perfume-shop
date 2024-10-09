@@ -4,6 +4,15 @@
 
 Perfume Shop is a full-stack e-commerce web application for browsing and purchasing perfumes. The project uses **React.js** for the frontend, **Node.js** and **Express** for the backend, and **MongoDB** as the database. This application allows users to browse products, view details, add reviews, and make purchases.
 
+
+## Demo Video
+
+Watch the demo video of the project:
+
+[![Demo Video](https://img.youtube.com/vi/ISaRWjRdVQ0/0.jpg)](https://youtu.be/ISaRWjRdVQ0)
+
+
+
 ## Features
 
 - **Product Display**: Browse through various perfumes displayed in a stylish product grid.
