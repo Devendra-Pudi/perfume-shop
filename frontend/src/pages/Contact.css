@@ -1,0 +1,78 @@
+/* src/pages/Contact.css */
+
+.contact-page {
+    background-color: #f0f2f5; /* Light gray background for contrast */
+    min-height: 100vh; /* Ensure the page takes full viewport height */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-card {
+    border: none;
+    border-radius: 15px; /* Rounded corners for elegance */
+    background-color: #ffffff; /* White background for the card */
+}
+
+.contact-card .card-body {
+    padding: 40px;
+}
+
+/* Centering the title */
+.title {
+    color: #20c997; /* Title color */
+    font-weight: bold; /* Bold title */
+}
+
+/* Custom styles for form controls */
+.contact-form .custom-form-control {
+    border-radius: 10px; /* Rounded input fields */
+    border: 1px solid #ced4da; /* Light border */
+    padding: 12px;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form .custom-form-control:focus {
+    border-color: #20c997; /* Accent color on focus */
+    box-shadow: none; /* Remove default shadow */
+}
+
+.submit-button {
+    background-color: #20c997; /* Accent color */
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #1ca68b; /* Darker shade on hover */
+}
+
+.social-icons a {
+    transition: transform 0.2s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .contact-card .card-body {
+        padding: 20px;
+    }
+
+    .contact-form .custom-form-control {
+        padding: 10px;
+    }
+
+    .submit-button {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    .social-icons a {
+        margin: 0 5px;
+    }
+}

@@ -1,0 +1,82 @@
+/* src/pages/ProductPage.css */
+.product-page {
+  background-color: #ecf0f1; /* Light grey background for contrast */
+  padding: 40px; /* Increased outer padding */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.product-title {
+  font-size: 2.5rem; /* Larger title for emphasis */
+  margin-bottom: 15px; /* Space below title */
+  color: #2c3e50; /* Dark color for title */
+  font-family: 'Arial', sans-serif; /* Stylish font */
+  text-transform: uppercase; /* Uppercase letters for a modern look */
+  letter-spacing: 1px; /* Spacing between letters */
+}
+
+.product-description {
+  margin-bottom: 20px; /* Space below description */
+  line-height: 1.6; /* Better readability */
+  font-size: 1.1rem; /* Slightly larger description text */
+  color: #34495e; /* Darker grey for description */
+}
+
+.product-price {
+  font-size: 1.8rem; /* Larger price */
+  margin-bottom: 20px; /* Space below price */
+  color: #e74c3c; /* Bright red for the price */
+  font-weight: bold; /* Bold font for price */
+}
+
+.size-label {
+  margin-bottom: 10px; /* Space below size label */
+  font-size: 1.2rem; /* Slightly larger size label */
+  color: #2980b9; /* Blue color for the label */
+}
+
+.button-container {
+  margin-top: 20px; /* Space above buttons */
+  display: flex; /* Flexbox for alignment */
+  gap: 15px; /* Space between buttons */
+}
+
+.button-container .btn {
+  background-color: #27ae60; /* Green button */
+  border: none; /* Remove border */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.button-container .btn:hover {
+  background-color: #2ecc71; /* Lighten on hover */
+}
+
+.button-container .share-btn {
+  background-color: #3498db; /* Blue for share button */
+}
+
+.button-container .share-btn:hover {
+  background-color: #2980b9; /* Darken on hover */
+}
+
+.mt-5 {
+  margin-top: 40px; /* Increase top margin for reviews section */
+}
+
+/* Reviews Section Styles */
+.reviews-section {
+  background-color: #fff; /* White background for reviews */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Inner padding */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .product-title {
+    font-size: 2rem; /* Responsive title size */
+  }
+  .product-price {
+    font-size: 1.5rem; /* Responsive price size */
+  }
+}

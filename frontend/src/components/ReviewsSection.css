@@ -1,0 +1,55 @@
+/* src/components/ReviewsSection.css */
+
+.reviews-section {
+    background-color: #34495e; /* A lighter shade for the background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+h3 {
+    color: #20c997; /* Primary theme color for headings */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+h4 {
+    color: #ecf0f1; /* Light color for subheadings */
+    margin-top: 30px; /* Space above the subheading */
+    margin-bottom: 10px; /* Space below the subheading */
+}
+
+.list-group-item {
+    background-color: #2c3e50; /* Dark background for review items */
+    color: #ffffff; /* White text for contrast */
+    border: none; /* Remove border for a cleaner look */
+    border-radius: 5px; /* Rounded corners for list items */
+    margin-bottom: 10px; /* Space between reviews */
+}
+
+.list-group-item strong {
+    color: #20c997; /* Highlight username in primary theme color */
+}
+
+.alert {
+    margin-bottom: 20px; /* Space below the alert */
+}
+
+.form-control {
+    background-color: #2c3e50; /* Dark background for inputs */
+    color: #ecf0f1; /* Light color for text */
+    border: 1px solid #20c997; /* Border color matching theme */
+}
+
+.form-control:focus {
+    border-color: #20c997; /* Highlight border on focus */
+    box-shadow: 0 0 5px rgba(32, 201, 151, 0.5); /* Subtle glow on focus */
+}
+
+.btn-success {
+    background-color: #20c997; /* Primary theme color for button */
+    border: none; /* Remove border for cleaner look */
+}
+
+.btn-success:hover {
+    background-color: #1abc9c; /* Slightly darker shade on hover */
+}

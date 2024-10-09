@@ -1,0 +1,37 @@
+/* src/pages/About.css */
+
+/* Container for centering content */
+
+
+.about-container {
+  
+    max-width: 900px; /* Restrict the width of the content */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding for spacing */
+    background-color: #f9f9f9; /* Light background for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Main title styling */
+.title {
+    font-family: 'Playfair Display', serif; /* Elegant serif font for the title */
+    font-size: 2.5rem; /* Larger font size for emphasis */
+    color: #20c997; /* Teal accent color */
+    text-transform: uppercase; /* Uppercase for a more formal look */
+    margin-bottom: 1rem; /* Spacing below the title */
+}
+
+/* Paragraph styling */
+.paragraph {
+    font-size: 1.2rem; /* Readable font size for paragraphs */
+    line-height: 1.6; /* Increased line height for better readability */
+    color: #333; /* Dark text color for contrast */
+    margin-bottom: 1.5rem; /* Spacing between paragraphs */
+}
+
+/* Styling for the team signature */
+.team {
+    font-weight: bold; /* Make team name bold */
+    color: #20c997; /* Match the accent color */
+}

@@ -1,0 +1,42 @@
+/* src/components/Navbar.css */
+
+/* Custom Navbar Styles */
+.custom-navbar {
+    background-color: #2c3e50; /* Dark Slate Gray */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Enhanced shadow for depth */
+}
+
+/* Brand Styling */
+.navbar-brand {
+    font-family: 'Playfair Display', serif; /* Elegant serif font */
+    font-size: 1.8rem;
+    color: #20c997 !important; /* Teal accent color */
+    transition: color 0.3s ease;
+    text-decoration: none; /* Remove underline */
+}
+
+/* Nav link styles */
+.nav-link {
+       
+    font-size: 1.1rem;
+    margin-left: 20px; /* Space between links */
+    transition: color 0.3s ease;
+    text-decoration: none; /* Remove underline */
+    color: #20c997 !important; /* Match brand color */
+}
+
+/* Hover Effect for Links */
+.nav-link:hover {
+    opacity: 0.7; /* Slight opacity effect on hover */
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    .nav-link {
+        margin-left: 10px; /* Adjust for smaller screens */
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem; /* Smaller brand font on mobile */
+    }
+}

@@ -1,0 +1,41 @@
+
+/* src/components/Banner.css */
+
+.banner {
+ /* background-image: url('https://img..com/-ector/cosmetic-pump-bottle-banner_33099-2058.jpg?w=900&t=st=1728401001~exp=1728401601~hmac='); Replace with your image path */
+    background-color: #2c3e50;/* Main color used in navigation bar */
+    padding: 60px 0; /* Padding to space the content */
+    text-align: center; /* Center the text */
+    color: #20c997 ;
+}
+
+.banner-title {
+    font-size: 3rem; /* Larger font size for the title */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.banner-subtitle {
+    font-size: 1.5rem; /* Subtitle font size */
+    margin-bottom: 30px; /* Space below the subtitle */
+}
+
+
+
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .banner-title {
+        font-size: 2.5rem; /* Adjust title size on small screens */
+    }
+
+    .banner-subtitle {
+        font-size: 1.25rem; /* Adjust subtitle size on small screens */
+    }
+}
+
+
+
+
+
+
