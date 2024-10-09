@@ -2,7 +2,7 @@
 
 ## Overview
 
-Perfume Shop is a full-stack e-commerce web application for browsing and purchasing perfumes. The project uses **React.js** for the frontend, **Node.js** and **Express** for the backend, and **MongoDB** as the database. This application allows users to browse products, view details, add reviews, and make purchases.
+Perfume Shop is a full-stack e-commerce web application for browsing and purchasing perfumes. The project uses **React.js** for the frontend, **Node.js** and **Express** for the backend, and **MongoDB** as the database. This application allows users to browse products, view details and add reviews.
 
 
 ## Demo Video
@@ -93,12 +93,12 @@ Make sure you have the following installed on your local machine:
     ```bash
      cd backend
 
-3. **Install Dependencies:**:
+3. **Install Dependencies**:
 
      ```bash
      npm install
 
-4. **Set Up Environment Variables:**:
+4. **Set Up Environment Variables**:
    Create a .env file in the root of the backend directory and add the following environment variables:
 
      ```bash
@@ -128,7 +128,7 @@ The backend server will start on http://localhost:5000.
      cd frontend
 
 
-2. **Install Frontend Dependencies::**:
+2. **Install Frontend Dependencies:**:
 
    ```bash
    npm install
