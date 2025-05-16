@@ -97,7 +97,7 @@ const reviews = [
 const seedDB = async () => {
   try {
     // Connect to MongoDB using the connection string from .env
-    await mongoose.connect(process.env.MONGODB_URI);
+    await mongoose.connect(process.env.MONGO_URI);
     console.log('✅ Connected to MongoDB');
 
     // Clear existing data from Products and Reviews collections

@@ -1,25 +1,3 @@
-// // src/components/ImageGallery.js
-// import React, { useState } from 'react';
-// import { Image, Row, Col } from 'react-bootstrap';
-
-// function ImageGallery({ images }) {
-//   const [mainImage, setMainImage] = useState(images[0]);
-
-//   return (
-//     <div>
-//       <Image src={mainImage} fluid rounded />
-//       <Row className="mt-3">
-//         {images.map((img, index) => (
-//           <Col key={index} xs={3} onClick={() => setMainImage(img)}>
-//             <Image src={img} thumbnail fluid style={{ cursor: 'pointer' }} />
-//           </Col>
-//         ))}
-//       </Row>
-//     </div>
-//   );
-// }
-
-// export default ImageGallery;
 
 
 // src/components/ImageGallery.js
